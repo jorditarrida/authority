@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Authority",
+    "slug": "authority",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "landscape",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "cat.jorditarrida.authority",
+      "supportsTablet": true
+    },
+    "description": "Authority / Health tracker for games like Star Realms, Hero Realms or Magic.",
+    "githubUrl": "https://github.com/jorditarrida/authority"
+  }
+}
